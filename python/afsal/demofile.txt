@@ -1,0 +1,4 @@
+hello world
+welcome to python
+file handling is easy
+my name is afu
