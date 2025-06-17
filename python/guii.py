@@ -48,8 +48,7 @@
 # bt=Button(root, text="click",command=clicked, fg="red", bg="black", borderwidth=5)
 # bt.place(x=100,y=80)
 
-
-
+  
 # root.mainloop()
 
 
@@ -90,18 +89,119 @@
 
 
 
-from tkinter import *
-root=Tk()
+# from tkinter import *
+# root=Tk()
+# Checkbox1=IntVar()
+# Checkbox2=IntVar()
+# Button1=Checkbutton(root,text="Learning",variable=Checkbox1,onvalue=1,offvalue=0,height=3,width=12)
+# Button2=Checkbutton(root,text="Tutorial",variable=Checkbox2,onvalue=1,offvalue=0,height=3,width=12)
+# Button1.pack()
+# Button2.pack()
+# mainloop()
 
 
-Checkbox1=IntVar()
-Checkbox2=IntVar()
-
-Button1=Checkbutton(root,text="Learning",variable=Checkbox1,onvalue=1,offvalue=0,height=3,width=12)
-
-Button2=Checkbutton(root,text="Tutorial",variable=Checkbox2,onvalue=1,offvalue=0,height=3,width=12)
 
 
-Button1.pack()
-Button2.pack()
-mainloop()
+# from tkinter import *
+# root=Tk()
+# canvas=Canvas(root,bg="yellow",width=150,height=250)
+# canvas.pack()
+# line=canvas.create_line(70,150,140,5)
+# root.geometry("350x250")
+# root.title("python lobby")
+# root.mainloop()
+
+
+
+# from tkinter import *
+# root=Tk()
+# canvas=Canvas(root,bg="yellow",width=150,height=250)
+# canvas.pack()
+# line=canvas.create_line(70,150,140,5,20,15)
+# root.geometry("350x250")
+# root.title("python lobby")
+# root.mainloop()
+
+
+
+# from tkinter import *
+# root=Tk()
+# canvas=Canvas(root,bg="yellow",width=150,height=250)
+# canvas.pack()
+# rectangle=canvas.create_rectangle(30,20,50,90,fill="light green")
+# root.geometry("350x400")
+# root.title("python lobby")
+# root.mainloop()
+
+
+
+# from tkinter import *
+# root=Tk()
+# can=Canvas(root,bg="yellow",width=150,height=250)
+# can.pack()
+# oval=can.create_oval(20,30,60,110,fill="light green")
+# root.geometry("350x400")
+# root.title("python lobby")
+# root.mainloop()
+
+
+
+# from tkinter import *
+# root=Tk()
+# root.title("python lobby")
+# radio1=StringVar(root,"2")
+# bt1=Radiobutton(root,text="radio button 1",variable=radio1,value="1")
+# bt1.pack()
+# bt2=Radiobutton(root,text="radio button 2",variable=radio1,value="2")
+# bt2.pack()
+# bt3=Radiobutton(root,text="radio button 3",variable=radio1,value="3")
+# bt3.pack()
+# root.geometry("350x400")
+# root.mainloop()
+
+
+
+# from tkinter import *
+# from tkinter import ttk
+# root=Tk()
+# listbox=Listbox(root,width=45,height=15,selectmode=MULTIPLE)
+# listbox.pack(pady=20)
+ 
+# listbox.insert(0,"c")
+# listbox.insert(1,"c++")
+# listbox.insert(2,"java")
+# listbox.insert(3,"python")
+# root.geometry("350x400")
+# root.title("python lobby")
+# root.mainloop()
+
+
+
+# from tkinter import *
+# root=Tk()
+# def callback():
+#     text = textbox.get(0.1,END)
+#     print(text)
+# textbox=Text(root,width=43,height=10)
+# textbox.pack()
+
+# bt=Button(root,text="display,text",command=callback)
+# bt.pack(pady=12)
+# root.geometry("350x400")
+# root.title("python")
+# root.mainloop()
+
+
+
+# from tkinter import *
+# root=Tk()
+# textbox=Text(root,width=40,height=13,wrap=WORD)
+# textbox.grid(row=0,column=0)
+
+# scroll=Scrollbar(root,orient=VERTICAL,command=textbox.yview)
+# scroll.grid(row=0,column=1,sticky=N+S)
+# textbox.config(yscrollcommand=scroll.set)
+
+# root.geometry("350x400")
+# root.title("python")
+# root.mainloop()

@@ -34,14 +34,14 @@
 
 
 
-def my_function(*number):
-    result=0
-    for num in number:
-        result=result+num
-    print(result)
+# def my_function(*number):
+#     result=0
+#     for num in number:
+#         result=result+num
+#     print(result)
 
 
-my_function(2,3,5)  
-my_function(4,5)      
+# my_function(2,3,5)  
+# my_function(4,5)      
 
 
